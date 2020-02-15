@@ -1,0 +1,83 @@
+<head>
+	<title>Box</title>
+	<link rel="stylesheet" href="css/fonts.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="css/core.min.css">
+	<link rel="stylesheet" href="css/challenge-board.min.css">
+	<link rel="stylesheet" type="text/css" href="css/user.css">
+</head>
+<body>
+<div class="modal-dialog" role="document">
+	<div class="modal-content">
+		<div class="modal-body">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">×</span>
+			</button>
+			<ul class="nav nav-tabs">
+				<li class="nav-item">
+					<a class="nav-link active" href="#challenge">Challenge</a>
+				</li>	
+					<li class="nav-item">
+						<a class="nav-link challenge-solves" href="#solves">
+							26 Solves
+						</a>
+					</li>				
+			</ul>
+			<div role="tabpanel">
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane fade show active" id="challenge">
+						<h2 class="challenge-name text-center pt-3">OOP</h2>
+						<h3 class="challenge-value text-center">350</h3>
+						<div class="challenge-tags text-center">
+							
+						</div>
+						<span class="challenge-desc"><p>OOP (Object Oriented Programming) adalah suatu metode pemrograman yang berorientasi kepada objek. Tujuan dari OOP diciptakan adalah untuk mempermudah pengembangan program dengan cara mengikuti model yang telah ada di kehidupan sehari-hari.</p>
+<p><a href="http://ctf.codebanua.me/obyek/">http://ctf.codebanua.me/obyek/</a></p>
+<p>problem setter @surya_zxc</p>
+</span>
+						<div class="challenge-hints hint-row row">							
+						</div>
+						<div class="row challenge-files text-center pb-3">							
+						</div>
+						<div class="row submit-row">
+							<div class="col-md-9 form-group">
+								<input class="form-control" type="text" name="answer" id="submission-input" placeholder="Flag">
+								<input id="challenge-id" type="hidden" value="11">
+							</div>
+							<div class="col-md-3 form-group key-submit">
+								<button type="submit" id="submit-key" tabindex="0" class="btn btn-md btn-outline-secondary float-right">Submit
+								</button>
+							</div>
+						</div>
+						<div class="row notification-row">
+							<div class="col-md-12">
+								<div id="result-notification" class="alert alert-dismissable text-center w-100" role="alert" style="display: none;">
+									<strong id="result-message"></strong>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="solves">
+						<div class="row">
+							<div class="col-md-12">
+								<table class="table table-striped text-center">
+									<thead>
+									<tr>
+										<td><b>Name</b>
+										</td>
+										<td><b>Date</b>
+										</td>
+									</tr>
+									</thead>
+									<tbody id="challenge-solves-names">
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
