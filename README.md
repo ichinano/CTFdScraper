@@ -1,5 +1,7 @@
 ### Simple CTFd Scrapper for challenges gathering & archiving
 
+#### This Repository is no longer actively maintained. For a new update & releases, please checkout this [page](https://github.com/hanasuru/CTFdScraper)
+
 #### Install Dependencies
 ```bash
 $ pip install -r requirements.txt
